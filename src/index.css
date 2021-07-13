@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #000000;
+  --secondary: #ffffff;
+}
+
+/* Import fonts */
+
+/* SWAPI CLASS */
+
+.h1-plus {
+  font-family: 'poppins-bold';
+  font-size: 60px !important;
+  line-height: 68px;
+}
+
+h1 {
+  font-family: 'poppins-bold';
+  font-size: 36px !important;
+  line-height: 34px;
+}
+
+h2 {
+  font-family: 'poppins-bold';
+  font-size: 28px !important;
+  line-height: 36px;
+}
+
+h3 {
+  font-family: 'poppins-bold';
+  font-size: 24px !important;
+  line-height: 28px;
+}
+
+h4 {
+  font-family: 'poppins-bold';
+  font-size: 20px !important;
+  line-height: 20px;
+}
+
+.p16 {
+  font-family: 'poppins-regular';
+  font-size: 16px !important;
+  line-height: 20px;
+}
+
+.p14 {
+  font-family: 'poppins-regular';
+  font-size: 14px !important;
+  line-height: 20px;
+}
+
+.p12 {
+  font-family: 'poppins-regular';
+  font-size: 12px !important;
+  line-height: 20px;
+}
+
+.l14 {
+  font-family: 'Roboto-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.header-Bold {
+  font-family: 'poppins-bold' !important;
+}
+
+.header-regular {
+  font-family: 'poppins-regular' !important;
+}
+
+.paragraph-Bold {
+  font-family: 'poppins-bold' !important;
+}
+
+.paragraph-regular {
+  font-family: 'poppins-regular' !important;
+}
