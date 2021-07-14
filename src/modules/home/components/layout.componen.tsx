@@ -88,7 +88,7 @@ const Layout = () => {
       </DetailCard>
      </div>
     )}
-    {pilots !== null && (
+    {pilots !== null && pilots.length && (
      <div className='col-span-12 mt-2 mb-12'>
       <DetailCard className='text-center pb-4'>
        <div className='border-bottom-black'>
