@@ -16,7 +16,7 @@ const Layout = () => {
 
  const selectedOption = (option: any) => {
   store.dispatch(updateStartship(option));
-  setSelectOption(option);
+  setSelectOption(store.getState().startship.startship);
   setOpen(false);
  };
 
